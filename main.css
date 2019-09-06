@@ -1,0 +1,37 @@
+table {
+	font-size: 10px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+	width: 40px;
+	padding: 0 0 8px 0;
+}
+
+th {
+	text-align: left;
+	font-size: 8px;
+}
+
+.titles {
+	border: none;
+}
+
+.marked {
+	border: 0;
+  border-right: 1px solid black;
+	height: 10px;
+	width: 10px;
+	padding: 0;
+}
+
+.blank {
+	border: 0;
+	height: 10px;
+	width: 10px;
+	padding: 0;
+}
+/* The attached image shows a blank "driver log." Drivers use these to record how many hours they spend each day driving, on duty, etc. Create a web page that draws a blank driver log using javascript to write an html <table> with css borders on each cell. (Don't use a javascript canvas.)
+
+Each status row (Off Duty, Sleeper, Driving, On duty) is sub-divided into quarter hour, half hour and whole hour tick marks. Make the quarter hour tick marks about 10 pixels high, the half hour tick marks about 20 pixels high, the whole status row about 40 pixels high. */
